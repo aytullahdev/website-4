@@ -1,0 +1,117 @@
+@import url('../webbox/css/main.css');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200&display=swap');
+.sec01{
+    padding-bottom: 200px!important;
+    position:relative;
+    background-image: url('../img/banner-bg.png');
+    background-size: cover;
+    
+   
+   
+}
+
+.navbar{
+    background-color: #fff;
+    border-radius: 25px ;
+    z-index: 1;
+    left: 50%;
+ 
+    position: fixed;
+    transform: translateX(-50%);
+    
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-nav > li{
+    margin-right: 30px;
+    font-size:18px;
+    font-family: 'Barlow Condensed';
+    font-weight: 500;
+}
+.navbar  :hover {
+    color: darkorange!important;
+}
+.card1{
+    border-radius: 25px;
+    transform: translateY(-100px);
+    background-color: #fff;
+}
+.sec04{
+    background: url('../img/work-process-bg.png');
+    background-size: cover;
+  
+}
+.par{
+    width: 600px;
+    margin: auto;
+    line-height: 30px;
+}
+.cir{
+    height: 65px;
+    width: 65px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.li2>li{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: gray;
+
+
+}
+.sec06{
+    background-color: #f2f2fe;
+}
+.sec07{
+    background: url('../img/fun-facts-bg.png');
+    background-size: cover;
+}
+.li3{
+    padding-bottom: 30px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.li3 > li{
+    margin-right: 30px;
+    font-size: 32px;
+}
+.li3 >li>i{
+    cursor: pointer;
+    color: white;
+    
+    transition: 0.5s;
+}
+.li3 >li>i:hover{
+    color:darkorange;
+}
+footer{
+    background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+    padding-top: 30px;
+}
+.card1:hover{
+    color:brown;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 320px) {
+    .card1{
+        transform: translateY(0px)!important;
+        
+    }
+    .li3{
+        flex-direction: column!important;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .card1{
+        transform: translateY(0px)!important;
+        
+    }
+    .li3{
+        flex-direction: column!important;
+    }
+  }
